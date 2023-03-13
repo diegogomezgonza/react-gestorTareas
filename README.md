@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Empezando con React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para aprender a utilizar React, estoy siguiendo los videos de Luis Cabrera.
+Enlace al primer video de su curso (me he basado en este video): https://youtu.be/Bh7j2upPAT8?list=PLdcAPGja1uw1fmhVo-obnAXEXPqYQ9HLy
 
-## Available Scripts
+## Información principal.
+En este primer video se aprende a crear un proyecto con React desde cero para desarrollar un gestor de tareas, aprendiendo a utilizar hooks.
+En mi caso he cambiado algunos elementos de la parte visual, pero la funcionalidad está basada 100% en el video de Luis.
 
-In the project directory, you can run:
+## Información extra (mis apuntes).
 
-### `npm start`
+Atajo para limpiar terminal de GIT: CTRL + L.
+Si estamos dentro de la carpeta de nuestro proyecto, podemos abrirlo en VS escribiendo code.
+Los componentes de React comienzan con letra mayúscula.
+Un componente sólo puede retornar una única etiqueta, de modo que si queremos retornar varios elementos lo más inteligente es retornar un contenedor como por ejemplo un div. La mejor forma de agrupar etiquetas es con <>, es decir, fragment.
+Para poder crear aplicaciones altamente interactivas, necesitamos implementar estados.
+Las funciones que reciben argumentos se ejecutan automáticamente una vez, para que esto no ocurra, la hacemos retornar en una función de flecha ( () => función ).
+Atajo para crear const con useState = useState y selecciono segunda opción (snippet).
+El nombre del name y del atributo del objeto de estado deben ser iguales.
+Para evitar el comportamiento por defecto de un formulario (recargar la página al realizar un submit) podemos recibir un preventDefault en nuestro form.
+Hacer aplicación persistente mediante localStorage (mantener estados al recargar la página).
+localStorage solo almacena Strings.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
