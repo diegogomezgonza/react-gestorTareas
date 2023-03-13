@@ -9,17 +9,17 @@ En mi caso he cambiado algunos elementos de la parte visual, pero la funcionalid
 
 ## Información extra (mis apuntes).
 
-Atajo para limpiar terminal de GIT: CTRL + L.
-Si estamos dentro de la carpeta de nuestro proyecto, podemos abrirlo en VS escribiendo code.
-Los componentes de React comienzan con letra mayúscula.
-Un componente sólo puede retornar una única etiqueta, de modo que si queremos retornar varios elementos lo más inteligente es retornar un contenedor como por ejemplo un div. La mejor forma de agrupar etiquetas es con <>, es decir, fragment.
-Para poder crear aplicaciones altamente interactivas, necesitamos implementar estados.
-Las funciones que reciben argumentos se ejecutan automáticamente una vez, para que esto no ocurra, la hacemos retornar en una función de flecha ( () => función ).
-Atajo para crear const con useState = useState y selecciono segunda opción (snippet).
-El nombre del name y del atributo del objeto de estado deben ser iguales.
-Para evitar el comportamiento por defecto de un formulario (recargar la página al realizar un submit) podemos recibir un preventDefault en nuestro form.
-Hacer aplicación persistente mediante localStorage (mantener estados al recargar la página).
-localStorage solo almacena Strings.
+- Atajo para limpiar terminal de GIT: CTRL + L.
+- Si estamos dentro de la carpeta de nuestro proyecto, podemos abrirlo en VS escribiendo code.
+- Los componentes de React comienzan con letra mayúscula.
+- Un componente sólo puede retornar una única etiqueta, de modo que si queremos retornar varios elementos lo más inteligente es retornar un contenedor como por ejemplo un div. La mejor forma de agrupar etiquetas es con <>, es decir, fragment.
+- Para poder crear aplicaciones altamente interactivas, necesitamos implementar estados.
+- Las funciones que reciben argumentos se ejecutan automáticamente una vez, para que esto no ocurra, la hacemos retornar en una función de flecha ( () => función ).
+- Atajo para crear const con useState = useState y selecciono segunda opción (snippet).
+- El nombre del name y del atributo del objeto de estado deben ser iguales.
+- Para evitar el comportamiento por defecto de un formulario (recargar la página al realizar un submit) podemos recibir un preventDefault en nuestro form.
+- Hacer aplicación persistente mediante localStorage (mantener estados al recargar la página).
+- localStorage solo almacena Strings.
 
 
 
