@@ -4,9 +4,10 @@ Para aprender a utilizar React, estoy siguiendo los videos de Luis Cabrera.
 Enlace al primer video de su curso (me he basado en este video): https://youtu.be/Bh7j2upPAT8?list=PLdcAPGja1uw1fmhVo-obnAXEXPqYQ9HLy
 
 ## Información principal.
-En este primer video se aprende a crear un proyecto con React desde cero para desarrollar un gestor de tareas, aprendiendo a utilizar hooks.
-En mi caso he cambiado algunos elementos de la parte visual, pero la funcionalidad está basada 100% en el video de Luis.
-npm start para iniciar el proyecto.
+- En este primer video se aprende a crear un proyecto con React desde cero para desarrollar un gestor de tareas, aprendiendo a utilizar hooks.
+- En mi caso he cambiado algunos elementos de la parte visual, pero la funcionalidad está basada 100% en el video de Luis.
+- npm install para node_modules.
+- npm start para iniciar el proyecto.
 
 ## Información extra (mis apuntes).
 
