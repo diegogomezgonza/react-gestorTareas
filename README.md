@@ -6,6 +6,7 @@ Enlace al primer video de su curso (me he basado en este video): https://youtu.b
 ## Información principal.
 En este primer video se aprende a crear un proyecto con React desde cero para desarrollar un gestor de tareas, aprendiendo a utilizar hooks.
 En mi caso he cambiado algunos elementos de la parte visual, pero la funcionalidad está basada 100% en el video de Luis.
+npm start para iniciar el proyecto.
 
 ## Información extra (mis apuntes).
 
